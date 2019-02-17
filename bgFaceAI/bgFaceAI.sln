@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bgFaceAI", "bgFaceAI\bgFaceAI.vcxproj", "{8EF78256-BAA1-48F0-A9DC-23CBBC2BDE5C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bgDataAcquisition", "bgDataAcquisition\bgDataAcquisition.vcxproj", "{7A070BBA-C44D-4A98-B84F-8C2F97F7153D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bgFaceDemo", "bgFaceDemo\bgFaceDemo.vcxproj", "{FD76380D-7754-4B3C-9596-BD0B9B6F218A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bgFaceServer", "bgFaceServer\bgFaceServer.vcxproj", "{27B355B9-006F-46BC-B705-9B0556822536}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bgFaceManager", "bgFaceManager\bgFaceManager.vcxproj", "{B53DDE48-81F8-4EAB-9F19-5EC677AFD726}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8EF78256-BAA1-48F0-A9DC-23CBBC2BDE5C} = {8EF78256-BAA1-48F0-A9DC-23CBBC2BDE5C}
+		{7A070BBA-C44D-4A98-B84F-8C2F97F7153D} = {7A070BBA-C44D-4A98-B84F-8C2F97F7153D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bgFacdeAIDemo", "bgFacdeAIDemo\bgFacdeAIDemo.vcxproj", "{2F52434F-E050-4A10-929E-D86163A02215}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EF78256-BAA1-48F0-A9DC-23CBBC2BDE5C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8EF78256-BAA1-48F0-A9DC-23CBBC2BDE5C}.Debug|Win32.Build.0 = Debug|Win32
+		{8EF78256-BAA1-48F0-A9DC-23CBBC2BDE5C}.Release|Win32.ActiveCfg = Release|Win32
+		{8EF78256-BAA1-48F0-A9DC-23CBBC2BDE5C}.Release|Win32.Build.0 = Release|Win32
+		{7A070BBA-C44D-4A98-B84F-8C2F97F7153D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7A070BBA-C44D-4A98-B84F-8C2F97F7153D}.Debug|Win32.Build.0 = Debug|Win32
+		{7A070BBA-C44D-4A98-B84F-8C2F97F7153D}.Release|Win32.ActiveCfg = Release|Win32
+		{7A070BBA-C44D-4A98-B84F-8C2F97F7153D}.Release|Win32.Build.0 = Release|Win32
+		{FD76380D-7754-4B3C-9596-BD0B9B6F218A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD76380D-7754-4B3C-9596-BD0B9B6F218A}.Debug|Win32.Build.0 = Debug|Win32
+		{FD76380D-7754-4B3C-9596-BD0B9B6F218A}.Release|Win32.ActiveCfg = Release|Win32
+		{FD76380D-7754-4B3C-9596-BD0B9B6F218A}.Release|Win32.Build.0 = Release|Win32
+		{27B355B9-006F-46BC-B705-9B0556822536}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27B355B9-006F-46BC-B705-9B0556822536}.Debug|Win32.Build.0 = Debug|Win32
+		{27B355B9-006F-46BC-B705-9B0556822536}.Release|Win32.ActiveCfg = Release|Win32
+		{27B355B9-006F-46BC-B705-9B0556822536}.Release|Win32.Build.0 = Release|Win32
+		{B53DDE48-81F8-4EAB-9F19-5EC677AFD726}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B53DDE48-81F8-4EAB-9F19-5EC677AFD726}.Debug|Win32.Build.0 = Debug|Win32
+		{B53DDE48-81F8-4EAB-9F19-5EC677AFD726}.Release|Win32.ActiveCfg = Release|Win32
+		{B53DDE48-81F8-4EAB-9F19-5EC677AFD726}.Release|Win32.Build.0 = Release|Win32
+		{2F52434F-E050-4A10-929E-D86163A02215}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2F52434F-E050-4A10-929E-D86163A02215}.Debug|Win32.Build.0 = Debug|Win32
+		{2F52434F-E050-4A10-929E-D86163A02215}.Release|Win32.ActiveCfg = Release|Win32
+		{2F52434F-E050-4A10-929E-D86163A02215}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
